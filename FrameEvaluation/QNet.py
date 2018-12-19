@@ -40,6 +40,7 @@ class QNet(nn.Module):
     def forward(self,drop_frame_img,drop_frame_fea,mean_state_video_a,mean_state_video_b,var_state_video_a,var_state_video_b):
         if len(drop_frame_img.shape)<4:
             drop_frame_img=drop_frame_img.unsqueeze(0)
+        
         qnet_fea=self.pre_layer(drop_frame_img)
         qnet_fea=qnet_fea.view(qnet_fea.size(0),-1)
         qnet_fea=self.fc1(qnet_fea)

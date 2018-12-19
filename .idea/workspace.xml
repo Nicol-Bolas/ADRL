@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94aeee9c-21e6-472b-9991-1842c9381411" name="Default" comment="" />
+    <list default="true" id="94aeee9c-21e6-472b-9991-1842c9381411" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py" afterPath="$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrameEvaluation/QNet.py" afterPath="$PROJECT_DIR$/FrameEvaluation/QNet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrameEvaluation/Trainer.py" afterPath="$PROJECT_DIR$/FrameEvaluation/Trainer.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="QNet.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QNet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrameEvaluation/QNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3068">
-              <caret line="46" column="65" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="65" />
+            <state relative-caret-position="-2714">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -51,8 +57,8 @@
       <file leaf-file-name="Trainer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrameEvaluation/Trainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1272">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="557">
+              <caret line="64" column="167" lean-forward="false" selection-start-line="64" selection-start-column="167" selection-end-line="64" selection-end-column="167" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -60,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="train_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FrameEvaluation/train_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="531">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,10 +92,9 @@
         <entry file="file://$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
-              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+              <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#3801#4147#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -144,9 +149,12 @@
       <find>read_file</find>
       <find>FEUtil</find>
       <find>dim</find>
-      <find>select_max_qScore</find>
       <find>=</find>
+      <find>select_max_qScore</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,15 +170,15 @@
         <option value="$PROJECT_DIR$/test/func.py" />
         <option value="$PROJECT_DIR$/Utils/mylog.py" />
         <option value="$PROJECT_DIR$/Utils/fileoperator.py" />
-        <option value="$PROJECT_DIR$/FrameEvaluation/QNet.py" />
         <option value="$PROJECT_DIR$/Utils/checkpoint.py" />
-        <option value="$PROJECT_DIR$/FrameEvaluation/Trainer.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py" />
         <option value="$PROJECT_DIR$/PreProcess/split_feas_by_person.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/FrameDrop.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/utils.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/drop_test.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/train_test.py" />
+        <option value="$PROJECT_DIR$/FrameEvaluation/QNet.py" />
+        <option value="$PROJECT_DIR$/FrameEvaluation/Trainer.py" />
       </list>
     </option>
   </component>
@@ -180,6 +188,7 @@
     <option name="width" value="1942" />
     <option name="height" value="1102" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -485,7 +494,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -576,7 +585,6 @@
           <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3801#4147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -679,7 +687,6 @@
           <caret line="64" column="68" lean-forward="false" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3801#4147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -892,16 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameEvaluation/Trainer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1272">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrameEvaluation/FrameDrop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -922,14 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameEvaluation/train_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrameEvaluation/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -940,24 +929,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py">
+    <entry file="file://$PROJECT_DIR$/FrameEvaluation/QNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="-2714">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3801#4147#0" expanded="false" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameEvaluation/QNet.py">
+    <entry file="file://$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3068">
-          <caret line="46" column="65" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="65" />
+        <state relative-caret-position="249">
+          <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameEvaluation/Trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="64" column="167" lean-forward="false" selection-start-line="64" selection-start-column="167" selection-end-line="64" selection-end-column="167" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameEvaluation/train_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

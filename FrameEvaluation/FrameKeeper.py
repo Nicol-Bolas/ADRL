@@ -14,12 +14,12 @@ def pil_loader(path):
         return img.convert('RGB')
 
 class FrameKeeper:
-    def __init__(self,video_path,frame_width,frame_height,feat_dim=512,transform = None,interval=1,fea_path=None):
+    def __init__(self,video_path,frame_width,frame_height,feat_dim=512,transform = None,interval=1,fea_path=None,device=None):
         # self.frames:list
         frames, frame_names = FrameKeeper.load_frames_from_dir(video_path)
         if fea_path is None:
             fea_path=video_path+'/feat.txt'
-        frame_feas = FrameKeeper.load_feas_from_dir(frame_names, fea_path,feat_dim=feat_dim)
+        frame_feas = FrameKeeper.load_feas_from_dir(frame_names, fea_path,feat_dim=feat_dim,device=device)
         cleaned_frames,cleaned_frame_names,cleaned_frame_feas=FrameKeeper.clean_unpaired_data(frames,frame_names,frame_feas)
 
         # self.frames=FrameKeeper.split_video_to_frames(video_path,interval)
@@ -35,7 +35,7 @@ class FrameKeeper:
         self.std_h=frame_height
         self.transform = transform
         self.frames_resize()
-        self.frames_trans()
+        self.frames_trans(device)
 
     def frames_resize(self):
         for i in range(self.video_len):
@@ -44,11 +44,13 @@ class FrameKeeper:
                 frame=frame.resize((self.std_w, self.std_h), Image.ANTIALIAS)
                 self.frames[i]=frame
 
-    def frames_trans(self):
+    def frames_trans(self,device=None):
         if self.transform is not None:
             for i in range(self.video_len):
                 frame = self.frames[i]
                 frame=self.transform(frame)
+                if device is not None:
+                    frame=frame.to(device)
                 self.frames[i]=frame
 
     def drop_single_frame(self,idx):
@@ -133,7 +135,7 @@ class FrameKeeper:
         return frames,frame_names
 
     @classmethod
-    def load_feas_from_dir(cls, frame_names,feas_path,feat_dim=512):
+    def load_feas_from_dir(cls, frame_names,feas_path,feat_dim=512,device=None):
         feas = list(range(len(frame_names)))
         for i in range(len(frame_names)):
             feas[i]=None
@@ -149,6 +151,8 @@ class FrameKeeper:
                     feat[i] = 1.0
             # feat=torch.from_numpy(feat).requires_grad_()
             feat = torch.from_numpy(feat)
+            if devive is not None:
+                feat=feat.to(device)
             for i in range(len(frame_names)):
                 if frame_names[i]==name:
                     feas[i]=feat

@@ -61,8 +61,8 @@ class ADRLTrainer:
                 video_b_path=video_paths[1][batch_idx]
                 label=labels[batch_idx]
 
-                keeper_a=FK.FrameKeeper(video_a_path,self.std_w,self.std_h,transform=self.transform,feat_dim=self.feat_dim,fea_path=self.feas_path)
-                keeper_b = FK.FrameKeeper(video_b_path,self.std_w,self.std_h,transform=self.transform,feat_dim=self.feat_dim,fea_path=self.feas_path)
+                keeper_a=FK.FrameKeeper(video_a_path,self.std_w,self.std_h,transform=self.transform,feat_dim=self.feat_dim,fea_path=self.feas_path,device=self.device)
+                keeper_b = FK.FrameKeeper(video_b_path,self.std_w,self.std_h,transform=self.transform,feat_dim=self.feat_dim,fea_path=self.feas_path,device=self.device)
 
                 for i in range(self.max_state_num):
                     a_drop_num=random.randint(1,keeper_a.video_len-3)
