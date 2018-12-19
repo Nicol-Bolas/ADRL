@@ -151,7 +151,7 @@ class FrameKeeper:
                     feat[i] = 1.0
             # feat=torch.from_numpy(feat).requires_grad_()
             feat = torch.from_numpy(feat)
-            if devive is not None:
+            if device is not None:
                 feat=feat.to(device)
             for i in range(len(frame_names)):
                 if frame_names[i]==name:

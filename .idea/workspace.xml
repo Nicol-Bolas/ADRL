@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94aeee9c-21e6-472b-9991-1842c9381411" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py" afterPath="$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrameEvaluation/QNet.py" afterPath="$PROJECT_DIR$/FrameEvaluation/QNet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrameEvaluation/Trainer.py" afterPath="$PROJECT_DIR$/FrameEvaluation/Trainer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrameEvaluation/train_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="531">
@@ -88,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameKeeper.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FrameKeeper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+            <state relative-caret-position="190">
+              <caret line="152" column="29" lean-forward="false" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -171,7 +167,6 @@
         <option value="$PROJECT_DIR$/Utils/mylog.py" />
         <option value="$PROJECT_DIR$/Utils/fileoperator.py" />
         <option value="$PROJECT_DIR$/Utils/checkpoint.py" />
-        <option value="$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py" />
         <option value="$PROJECT_DIR$/PreProcess/split_feas_by_person.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/FrameDrop.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/utils.py" />
@@ -179,6 +174,7 @@
         <option value="$PROJECT_DIR$/FrameEvaluation/train_test.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/QNet.py" />
         <option value="$PROJECT_DIR$/FrameEvaluation/Trainer.py" />
+        <option value="$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py" />
       </list>
     </option>
   </component>
@@ -939,16 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrameEvaluation/Trainer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -964,6 +950,16 @@
         <state relative-caret-position="531">
           <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrameEvaluation/FrameKeeper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="152" column="29" lean-forward="false" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
