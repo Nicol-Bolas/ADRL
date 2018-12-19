@@ -124,6 +124,8 @@ class ADRLTrainer:
 
             q_score=torch.stack(q_score ,dim = 0).double().squeeze()
             y_score=torch.stack(y_score ,dim = 0).double()
+            q_score=q_score.to(self.device)
+            y_score = y_score.to(self.device)
             final_loss=self.loss.compute(q_score,y_score)
 
             self.optimizer.zero_grad()
